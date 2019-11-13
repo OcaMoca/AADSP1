@@ -20,8 +20,8 @@ Dodajete novi busybox aplet capitalize sa sledecom fukncionalnoscu.
 			
 	* U miscutils/Config.src dodas:
 	
-		config CONFIG_READAHEAD 
-			bool “readahead” 
+		config CONFIG_CAPITALIZE
+			bool “capitalize” 
 			default n 
 			depends on LFS
 			help 
