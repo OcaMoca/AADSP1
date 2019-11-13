@@ -3,7 +3,7 @@ Dodavanje novog apleta:
 Dodajete novi busybox aplet capitalize sa sledecom fukncionalnoscu.
 						...
 						
-	* Premestis se u busybox source tree(?) i tu nadji miscutils fajl
+	* Premestis se u busybox source tree (busybox korensi folder) i nadji miscutils folder
 	, tu napravis novi fajl capitalize.c i napises kod koji je prilozen uz 
 	ovu skriptu. 
 	
@@ -31,3 +31,7 @@ Dodajete novi busybox aplet capitalize sa sledecom fukncionalnoscu.
 	* U miscutils/Kbuild.src dodas:
 		lib-$(CONFIG_CAPITALIZE) += capitalize.o
 	
+	* U src/busybox
+	
+		make
+		make install
